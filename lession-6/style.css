@@ -42,6 +42,7 @@ font-weight: 500;
     background: #FFF;
     border-radius: 4px;
     padding: 15px 30px;
+    margin-left: 90px;
 }
 
 .link {
@@ -49,8 +50,6 @@ font-weight: 500;
     font-weight: 500;
     text-decoration: none;
 }
-.container button {
-color: blue;
 
-}
+
 
