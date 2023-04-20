@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.header {
+    background: rgb(119, 119, 156);
+    height: 60px;
+       
+}
+
+.content {
+        display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.sidebar {
+    background: rgb(33, 85, 109);
+    flex-basis: 300px;
+
+}
+
+.main {
+    flex-grow: 1;
+    background: rgb(65, 114, 65);
+}
+
+.footer {
+    height: 60px;
+    background:rgb(41, 41, 196) ;
+
+}
