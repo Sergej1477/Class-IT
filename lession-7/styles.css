@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+nav {
+    background: rgb(119, 119, 156);
+    height: 60px;
+
+}
+
+.content1 {
+    background: rgb(30, 30, 49);
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.sidebar {
+    background: rgb(33, 85, 109);
+    flex-basis: 300px;
+
+}
+
+.content2 {
+    background: rgb(63, 46, 62);
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.content3 {
+    background: rgb(56, 51, 56);
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.content4 {
+    background: rgb(65, 35, 39);
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+
+main {
+    flex-grow: 1;
+    background: rgb(65, 114, 65);
+}
+
+footer {
+    height: 60px;
+    background: rgb(41, 41, 196);
+
+}
+
+/* .container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-template-areas:
+        "nav nav nav nav nav"
+        "sidebar main main main main "
+        "sidebar content1 content2 content3 content4"
+        "sidebar footer footer footer footer";
+    grid-gap: 3px;
+    font-weight: 800;
+    text-align: center;
+}
+
+nav {
+    background: rgb(221, 196, 196);
+    grid-area: nav;
+}
+
+main {
+    background: rgb(97, 163, 163);
+    grid-area: main;
+}
+
+.sidebar {
+    background: rgb(55, 59, 58);
+    grid-area: sidebar;
+}
+
+.content1 {
+    background: rgb(18, 58, 48);
+    grid-area: content1;
+}
+
+.content2 {
+    background: rgb(9, 61, 48);
+    grid-area: content2;
+}
+
+.content3 {
+    background: rgb(8, 75, 58);
+    grid-area: content3;
+}
+.content4 {
+    background: rgb(62, 22, 78);
+    grid-area: content4;
+}
+
+footer {
+    background: rgb(39, 40, 78);
+    grid-area: footer;
+} */
