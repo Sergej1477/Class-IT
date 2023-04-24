@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.header {
+    background: burlywood;
+    height: 60px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-grow:1 ;
+        
+}
+
+.sidebar {
+    background: rgb(109, 100, 91);
+    flex-basis: 300px;
+
+}
+
+.main {
+    background:rgb(59, 42, 21);
+    flex-grow: 1; 
+}
+
+.footer {
+    background: rgb(65, 54, 42);
+    height: 60px;
+    }

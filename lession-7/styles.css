@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 
@@ -64,7 +64,7 @@ footer {
     height: 60px;
     background: rgb(41, 41, 196);
 
-}
+} */
 
 /* .container {
     display: grid;
