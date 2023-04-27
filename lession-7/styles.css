@@ -17,7 +17,7 @@
         "sidebar main main main main "
         "sidebar content1 content2 content3 content4"
         "sidebar footer footer footer footer";
-    grid-gap: 2px;
+    grid-gap: 3px;
     font-weight: 800;
     text-align: center;
 }
@@ -60,4 +60,125 @@ main {
 footer {
     background: rgb(39, 40, 78);
     grid-area: footer;
+}
+
+@media screen and (max-width: 1200px) {
+    nav {
+        background: rgb(59, 52, 52);
+    }
+
+    main {
+        background: rgb(88, 65, 65);
+    }
+
+    .sidebar {
+        background: rgb(172, 84, 84);
+    }
+
+    footer {
+        background: rgb(209, 47, 47);
+    }
+
+    .content1 {
+        background: rgb(56, 38, 56);
+    }
+
+    .content2 {
+        background: rgb(110, 121, 47);
+    }
+
+    .content3 {
+        background: rgb(182, 171, 53);
+    }
+
+    .content4 {
+        background: rgb(73, 68, 12);
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr;
+        grid-template-areas:
+            "nav"
+            "sidebar"
+            "main"
+            "content1"
+            "content2"
+            "content3"
+            "content4"
+            "footer";
+        grid-gap: 3px;
+        font-weight: 800;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        background: rgb(54, 49, 59);
+    }
+
+    main {
+        background: rgb(70, 85, 114);
+    }
+
+    .sidebar {
+        background: rgb(58, 16, 107);
+
+    }
+
+    footer {
+        background: rgb(21, 14, 83);
+    }
+
+    .content1 {
+        background: rgb(41, 44, 70);
+    }
+
+    .content2 {
+        background: rgb(36, 25, 95);
+    }
+
+    .content3 {
+        background: rgb(46, 18, 78);
+    }
+
+    .content4 {
+        background: rgb(114, 10, 109);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    nav {
+        background: rgb(59, 52, 52);
+    }
+
+    main {
+        background: rgb(88, 65, 65);
+    }
+
+    .sidebar {
+        background: rgb(172, 84, 84);
+    }
+
+    footer {
+        background: rgb(209, 47, 47);
+    }
+
+    .content1 {
+        background: rgb(59, 28, 53);
+    }
+
+    .content2 {
+        background: rgb(56, 12, 33);
+    }
+
+    .content3 {
+        background: rgb(34, 17, 28);
+    }
+
+    .content4 {
+        background: rgb(75, 15, 83);
+    }
 }
