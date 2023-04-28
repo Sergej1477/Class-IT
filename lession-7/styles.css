@@ -17,7 +17,7 @@
         "sidebar main main main main "
         "sidebar content1 content2 content3 content4"
         "sidebar footer footer footer footer";
-    grid-gap: 3px;
+    grid-gap: 5px;
     font-weight: 800;
     text-align: center;
 }
@@ -97,7 +97,7 @@ footer {
 
     .container {
         grid-template-columns: 1fr;
-        grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr;
+        grid-template-rows: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr;
         grid-template-areas:
             "nav"
             "sidebar"
@@ -125,7 +125,6 @@ footer {
 
     .sidebar {
         background: rgb(58, 16, 107);
-
     }
 
     footer {
