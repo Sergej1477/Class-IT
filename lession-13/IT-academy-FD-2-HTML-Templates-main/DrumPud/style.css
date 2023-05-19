@@ -42,9 +42,7 @@ header p {
   text-align: center;
   color: #fff;
   font-size: 40px;
-  
 }
-
 
 .pad1 {
   background: #f7444e;
@@ -65,11 +63,10 @@ header p {
   background: #60c2d3;
 }
 
-
 .visual > div {
   position: absolute;
   bottom: 0%;
- 
+
   border-radius: 50%;
   transform: scale(1);
   z-index: -1;
@@ -80,14 +77,14 @@ header p {
     bottom: 50%;
     left: 20%;
     height: 100px;
-    width: 100px
+    width: 100px;
   }
 
   100% {
     bottom: 50%;
     left: 80%;
     height: 50px;
-    width: 50px
+    width: 50px;
   }
 }
 @keyframes dance {
@@ -101,4 +98,18 @@ header p {
   100% {
     opacity: 1;
   }
+}
+
+.sidebar {
+  width: 300px;
+  background-color: aqua;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -300px;
+  transition: left 0.4s;
+}
+
+.sidebar-open {
+  left: 0;
 }
