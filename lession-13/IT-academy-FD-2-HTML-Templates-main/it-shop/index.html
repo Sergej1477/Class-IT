@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT-shop</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+  <meta name="theme-color" content="#ffffff">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+  <div class="main-layout">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <div class="collapse navbar-collapse d-flex justify-content-between">
+            <ul class="navbar-nav">
+
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Блог</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Контакты</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link position-relative" href="#">
+                  <img src="./images/icons/cart.svg" alt="cart" width="24" height="24">
+                  <span class="position-absolute top-5 start-100 translate-middle badge rounded-pill bg-danger">
+                    99+
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav class="navbar navbar-expand-lg mt-3">
+        <div class="container">
+          <div class="collapse navbar-collapse d-flex justify-content-between">
+            <ul class="navbar-nav">
+
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Одежда</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Обувь</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Аксессуары</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Спорт</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: #f93c00" href="#">Sale%</a>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <hr class="dropdown-divider">
+
+      <div class="container mt-5 pt-5 border-top">
+        <div class="row">
+          <div class="col-sm-3 border-end">
+            <ul class="list-unstyled ps-0">
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center border-0">
+                  <span class="me-1">Category</span>
+                  <img src="./images//icons//chevron-up-svgrepo-com.svg" alt="chevron" width="16" height="16">
+                </button>
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small ms-4">
+                  <li><a href="#" class="nav-link active">Overview</a></li>
+                  <li><a href="#" class="nav-link">Updates</a></li>
+                  <li><a href="#" class="nav-link">Reports</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-9">
+            <div class="row">
+
+              <div class="col-sm-3 mb-3">
+                <div class="card">
+                  <img class="image-fit" src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+                    class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <small class="card-title pricing-card-title">220$</small>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-3 mb-3">
+                <div class="card">
+                  <img class="image-fit" src="https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+                    class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-3 mb-3">
+                <div class="card">
+                  <img class="image-fit" src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+                    class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-3 mb-3">
+                <div class="card">
+                  <img class="image-fit" src="https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+                    class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-3 mb-3">
+                <div class="card">
+                  <img class="image-fit" src="https://api.lorem.space/image/watch?w=640&h=480&r=3742"
+                    class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-3 mb-3">
+                <div class="card">
+                  <img class="image-fit" src="https://api.lorem.space/image/fashion?w=640&h=480&r=7891"
+                    class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-3 mb-3">
+                <div class="card">
+                  <img class="image-fit" src="https://api.lorem.space/image/fashion?w=640&h=480&r=687"
+                    class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-3 mb-3">
+                <div class="card">
+                  <img class="image-fit" src="https://api.lorem.space/image?w=640&h=480&r=5844" class="card-img-top"
+                    alt="image">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="container">
+      <footer>
+        <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+          <p>© 2022 Company, Inc. All rights reserved.</p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#twitter"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#instagram"></use>
+                </svg></a></li>
+            <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
+                  <use xlink:href="#facebook"></use>
+                </svg></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+</body>
+
+</html>
